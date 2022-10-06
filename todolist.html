@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="w3-top">
+        <div class="w3-bar w3-yellow w3-card w3-left-align w3-large">
+          <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-yellow" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+          <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+          <a href="pomotimer.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Pomodoro</a>
+          <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Notes</a>
+          <a href="todolist.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">To Do List</a>
+          <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Calendar</a>
+        </div>
+      
+    <h1>To Do List</h1>
+    <div class="container">
+        <input id="inputField" type="text"><button id="addToDo">+</button>
+        <div class="to-dos" id="toDoContainer">
+        </div>
+    </div>
+    <script src="maintodo.js"></script>
+</body>
+</html>
